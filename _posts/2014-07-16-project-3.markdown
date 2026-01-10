@@ -1,8 +1,0 @@
----
-layout: default
-title: Urban Barcoding Biology Club
-subtitle: Member · Sept 2025 – Present
-thumbnail: portfolio/UrbanBarcode.JPG
-modal-id: 4
----
-Conducted DNA barcoding projects to identify local species using molecular biology techniques. Gained hands-on experience with biological research methods, data analysis, and biodiversity studies through both laboratory work and field investigation.
