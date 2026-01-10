@@ -2,7 +2,8 @@
 layout: default
 title: Debate Team
 subtitle: Member · Dec 2025 – Present
-img: debate.jpg
+thumbnail: pf.jpg
+img: pf.jpg
 alt: Debate competition and public speaking
 modal-id: 2
 ---
