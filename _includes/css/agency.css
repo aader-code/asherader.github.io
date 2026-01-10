@@ -863,3 +863,42 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* FORCE PROFESSIONAL ACCENT COLOR */
+:root {
+  --accent-color: #1f3a5f;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-xl {
+  background-color: #1f3a5f !important;
+  border-color: #1f3a5f !important;
+  color: #fff !important;
+}
+
+/* Hover states */
+.btn-primary:hover,
+.btn-xl:hover {
+  background-color: #162c47 !important;
+  border-color: #162c47 !important;
+}
+
+/* Icons */
+.fa-circle {
+  color: #1f3a5f !important;
+}
+
+/* Links & highlights */
+a,
+a:hover,
+.text-primary {
+  color: #1f3a5f !important;
+}
+
+/* Navbar active underline / highlights */
+.navbar-default .nav li a:hover,
+.navbar-default .nav li.active a {
+  color: #1f3a5f !important;
+}
+
