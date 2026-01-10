@@ -2,6 +2,7 @@
 layout: default
 title: FTC Robotics Team
 subtitle: Member · Nov 2025 – Present
+thumbnail: ftc.jpg
 img: ftc.jpg
 alt: FTC robotics competition robot
 modal-id: 1
