@@ -1,15 +1,8 @@
 ---
-title: Dreams
-subtitle: Website Design
 layout: default
-modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+title: Robinhood.org Summer Program
+subtitle: Certificate Recipient · Jun 2025
+thumbnail: portfolio/Robinhood.JPG
+modal-id: 6
 ---
+Participated in a community service–focused program addressing social and economic inequality. Engaged in volunteer work and service projects while learning about philanthropy, community engagement, and social impact, contributing time and effort to support local communities.
