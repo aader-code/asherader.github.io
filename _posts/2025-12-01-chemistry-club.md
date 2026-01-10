@@ -2,6 +2,7 @@
 layout: default
 title: Chemistry Club
 subtitle: Member · Dec 2025 – Present
+thumbnail: chemesty.jpg
 img: chemistry.jpg
 alt: Chemistry lab work and experiments
 modal-id: 3
