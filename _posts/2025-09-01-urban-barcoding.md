@@ -2,8 +2,8 @@
 layout: default
 title: Urban Barcoding Biology Club
 subtitle: Member · Sept 2025 – Present
-thumbnail: pf.jpg
-img: pf.jpg
+thumbnail: ub.jpg
+img: ub.jpg
 alt: DNA barcoding and biology research
 modal-id: 4
 ---
