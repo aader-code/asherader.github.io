@@ -1,20 +1,26 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
+<section class="intro">
+  <h1>Asher Ader</h1>
+  <p><strong>New York, NY</strong></p>
 
-  <h1>Posts</h1>
+  <p>
+    I am a high school student at The Browning School with strong interests in
+    technology, design, and problem-solving. I balance rigorous academics with
+    hands-on experience through coding, robotics, debate, and varsity athletics.
+  </p>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  <p>
+    I have experience in Python, HTML, CSS, and computer-aided design, and I value
+    leadership, discipline, and collaboration as a co-captain of the varsity indoor
+    track and field team.
+  </p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <p>
+    Use the menu above to learn more about my skills, activities, athletics,
+    and contact information.
+  </p>
+</section>
