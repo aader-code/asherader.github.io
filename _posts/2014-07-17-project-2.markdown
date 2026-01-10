@@ -1,8 +1,0 @@
----
-layout: default
-title: Boston University Summer Challenge
-subtitle: Certificate Recipient · Aug 2025
-thumbnail: portfolio/BU.JPG
-modal-id: 5
----
-Completed intensive coursework in psychology and anatomy/nutrition through Boston University’s pre-college program. Explored human behavior, biological systems, and health science concepts through lectures, discussions, and applied learning, strengthening analytical and scientific thinking.
