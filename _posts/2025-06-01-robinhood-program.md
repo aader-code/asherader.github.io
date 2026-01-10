@@ -2,6 +2,7 @@
 layout: default
 title: Robinhood.org Summer Program
 subtitle: Certificate Recipient · Jun 2025
+thumbnail: rh.jpg
 img: rh.jpg
 alt: Robinhood community service program
 modal-id: 6
