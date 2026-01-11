@@ -6,8 +6,9 @@ thumbnail: pf.jpg
 img: pf.jpg
 alt: Debate competition and public speaking
 description: >
-  I joined the Debate Team in December 2025. I work on public speaking,
-  argument construction, and rebuttals through weekly practices and competitions.
+Competed in structured team debates on current events and policy issues,
+developing skills in research, critical thinking, and persuasive speaking.
+Collaborated with partners to construct arguments, analyze evidence, and deliver effective rebuttals under time constraints.
 details: Public speaking, research, competitive rounds
 modal-id: 2
 ---
