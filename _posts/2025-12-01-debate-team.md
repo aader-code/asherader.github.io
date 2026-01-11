@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Debate Team
-sub title: Member Dec 2025 - Present
+sub title: Member · Dec 2025 - Present
 modal-id: 2
 thumbnail: pf.jpg
 img: pf.jpg
