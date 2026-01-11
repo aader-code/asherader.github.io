@@ -931,4 +931,11 @@ a:hover,
   justify-content: center;
 }
 
+/* Vertically center the About modal content */
+.portfolio-modal .modal-body {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
