@@ -902,3 +902,33 @@ a:hover,
   color: #1f3a5f !important;
 }
 
+/* Force portfolio / EC items into a clean grid */
+.portfolio-item,
+.ec-item,
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Make all images the same visual height */
+.portfolio-item img {
+  width: 100%;
+  max-width: 260px;
+  height: 180px;
+  object-fit: contain;
+}
+
+/* Remove weird offsets that cause staggering */
+[class*="col-md-offset"] {
+  margin-left: 0 !important;
+}
+
+/* Ensure rows align evenly */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
