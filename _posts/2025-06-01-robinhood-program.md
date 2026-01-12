@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Robinhood.org Summer Program
-subtitle: Certificate Recipient · Jun 2025
+subtitle: Certificate Recipient · Fall 2025
 modal-id: 6
 thumbnail: rh.jpg
 img: rh.jpg
