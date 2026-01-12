@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Boston University Summer Challenge
-subtitle: Certificate Recipient · Aug 2025
+subtitle: Certificate Recipient · Summer 2025
 modal-id: 5
 thumbnail: boston.jpg
 img: boston.jpg
