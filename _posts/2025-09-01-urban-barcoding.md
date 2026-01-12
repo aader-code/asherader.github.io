@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Urban Barcoding Biology Club
-subtitle: Member · Sept 2025 – Present
+subtitle: Member · Fall 2025 – Present
 modal-id: 4
 thumbnail: ub.jpg
 img: ub.jpg
