@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chemistry Club
-subtitle: Member · Dec 2025 - Present
+subtitle: Member · Fall 2025 - Present
 modal-id: 3
 thumbnail: chem.jpg
 img: chem.jpg
