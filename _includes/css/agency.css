@@ -1108,5 +1108,37 @@ a:hover,
   margin-right: auto;
   max-width: 800px;   /* keeps it readable, not too wide */
 }
+/* ===== ABOUT SECTION LAYOUT ===== */
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 4px;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Mobile: stack image above text */
+@media (max-width: 991px) {
+  .about-flex {
+    display: block;
+    text-align: center;
+  }
+
+  .about-photo {
+    margin-bottom: 25px;
+  }
+}
 
 
