@@ -1141,4 +1141,40 @@ a:hover,
   }
 }
 
+/* ===== ABOUT PHOTO LEFT + TEXT RIGHT ===== */
+
+#about .about-flex {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#about .about-photo {
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+
+#about .about-text {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Mobile: stack image above text */
+@media (max-width: 991px) {
+  #about .about-flex {
+    display: block !important;
+    text-align: center;
+  }
+  #about .about-photo {
+    margin-bottom: 25px;
+  }
+}
+
+
 
