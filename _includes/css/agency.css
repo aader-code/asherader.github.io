@@ -1051,3 +1051,33 @@ a:hover,
 .navbar-default.navbar-shrink .nav li a:focus {
   color: #1e4f7a !important;
 }
+
+/* ===== MAKE CONTACT SECTION TEXT WHITE ===== */
+
+/* Main contact section text */
+#contact,
+#contact h2,
+#contact h3,
+#contact p,
+#contact span,
+#contact a {
+  color: #ffffff !important;
+}
+
+/* Subtext (like "Best ways to reach me.") */
+#contact .section-subheading {
+  color: #ffffff !important;
+  opacity: 0.85;
+}
+
+/* Icon labels under icons */
+#contact .contact-item h4,
+#contact .contact-item p {
+  color: #ffffff !important;
+}
+
+/* Links stay readable on hover */
+#contact a:hover,
+#contact a:focus {
+  color: #cfe6ff !important;
+}
