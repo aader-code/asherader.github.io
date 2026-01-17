@@ -7,6 +7,6 @@ permalink: /contact/
 ## Contact Information
 **School Email:** aader@browning.edu  
 **Personal Email:** asherader@icloud.com  
-**Phone:** (917) 301-2107  
+**Resume** https://docs.google.com/document/d/1vMZNCkN-bycO1pqv_a_d3-R_JoneIROU5TUQODuHdXY/edit?tab=t.0 
 **Location:** New York, NY
 
