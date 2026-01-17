@@ -1,13 +1,26 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
 
+    <!-- Brand and toggle -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">{{ site.title }}</a>
+    </div>
 
     <!-- Nav links -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.baseurl }}/skill">Skills</a></li>
-        <li><a href="{{ site.baseurl }}/activities">Extracurriculars</a></li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li><a href="{{ site.baseurl }}/athletics">Athletics</a></li>
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+        <li><a class="page-scroll" href="#skills">Skills</a></li>
+        <li><a class="page-scroll" href="#ecs">Extracurriculars</a></li>
+        <li><a class="page-scroll" href="#about">About</a></li>
+        <li><a class="page-scroll" href="#athletics">Athletics</a></li>
+        <li><a class="page-scroll" href="#contact">Contact</a></li>
       </ul>
     </div>
 
@@ -15,12 +28,12 @@
 </nav>
 
 <!-- Header -->
-<header>
+<header id="page-top">
   <div class="container">
     <div class="intro-text">
       <div class="intro-lead-in">I'm Asher Ader</div>
       <div class="intro-heading">IT'S NICE TO MEET YOU!</div>
-      <a href="{{ site.baseurl }}/about" class="btn btn-xl">
+      <a href="#about" class="page-scroll btn btn-xl">
         Learn more about me
       </a>
     </div>
