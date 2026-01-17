@@ -1097,3 +1097,16 @@ a:hover,
   text-decoration: underline !important;
 }
 
+/* ===== CENTER ABOUT SECTION TEXT ===== */
+
+#about {
+  text-align: center;
+}
+
+#about p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;   /* keeps it readable, not too wide */
+}
+
+
