@@ -1097,84 +1097,38 @@ a:hover,
   text-decoration: underline !important;
 }
 
-/* ===== CENTER ABOUT SECTION TEXT ===== */
-
-#about {
-  text-align: center;
-}
-
-#about p {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;   /* keeps it readable, not too wide */
-}
-/* ===== ABOUT SECTION LAYOUT ===== */
-
-.about-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
-.about-photo {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 4px;
-}
-
-.about-text {
-  text-align: center;
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-/* Mobile: stack image above text */
-@media (max-width: 991px) {
-  .about-flex {
-    display: block;
-    text-align: center;
-  }
-
-  .about-photo {
-    margin-bottom: 25px;
-  }
-}
-
-/* ===== ABOUT PHOTO LEFT + TEXT RIGHT ===== */
-
-#about .about-flex {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
+/* ===== ABOUT SECTION (BOOTSTRAP GRID: PHOTO LEFT, TEXT RIGHT) ===== */
 
 #about .about-photo {
   width: 100%;
-  max-width: 330px;
+  max-width: 300px;
   height: auto;
   border-radius: 6px;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;         /* centers the image inside its column */
 }
 
-#about .about-text {
-  text-align: center;
+/* On desktop, align the photo + text vertically */
+@media (min-width: 992px) {
+  #about .row {
+    display: flex;
+    align-items: center;
+  }
+
+  /* stop flex from breaking Bootstrap column widths */
+  #about .col-md-4,
+  #about .col-md-8 {
+    float: none;
+  }
+}
+
+/* Keep text readable + nice spacing */
+#about .col-md-8 p {
   max-width: 720px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Mobile: stack image above text */
-@media (max-width: 991px) {
-  #about .about-flex {
-    display: block !important;
-    text-align: center;
-  }
-  #about .about-photo {
-    margin-bottom: 25px;
-  }
-}
 
 
 
