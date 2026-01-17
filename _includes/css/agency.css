@@ -1020,5 +1020,7 @@ a:hover,
   color: #ffffff !important;
 }
 
-
+.navbar a {
+  color: #ffffff !important;
+}
 
