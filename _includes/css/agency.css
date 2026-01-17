@@ -1081,3 +1081,19 @@ a:hover,
 #contact a:focus {
   color: #cfe6ff !important;
 }
+
+/* ===== CONTACT LINKS: LIGHT BLUE + UNDERLINED ===== */
+
+#contact a {
+  color: #8fc7ff !important;   /* light blue */
+  text-decoration: underline !important;
+  font-weight: 500;
+}
+
+/* Slightly brighter on hover */
+#contact a:hover,
+#contact a:focus {
+  color: #b6ddff !important;
+  text-decoration: underline !important;
+}
+
