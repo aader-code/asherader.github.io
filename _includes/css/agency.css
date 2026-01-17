@@ -1097,38 +1097,27 @@ a:hover,
   text-decoration: underline !important;
 }
 
-/* ===== ABOUT SECTION (BOOTSTRAP GRID: PHOTO LEFT, TEXT RIGHT) ===== */
+/* ===== ABOUT SECTION (PHOTO LEFT, TEXT RIGHT) ===== */
 
+/* ONLY the content row should be flex on desktop */
+@media (min-width: 992px) {
+  #about .about-content-row {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Photo styling */
 #about .about-photo {
   width: 100%;
   max-width: 300px;
   height: auto;
   border-radius: 6px;
   display: block;
-  margin: 0 auto;         /* centers the image inside its column */
+  margin: 0 auto;
 }
 
-/* On desktop, align the photo + text vertically */
-@media (min-width: 992px) {
-  #about .row {
-    display: flex;
-    align-items: center;
-  }
-
-  /* stop flex from breaking Bootstrap column widths */
-  #about .col-md-4,
-  #about .col-md-8 {
-    float: none;
-  }
-}
-
-/* Keep text readable + nice spacing */
-#about .col-md-8 p {
+/* Keep paragraphs readable */
+#about .about-content-row .col-md-8 p {
   max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
 }
-
-
-
-
